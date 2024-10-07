@@ -1,0 +1,41 @@
+/* src/pages/WorkHours.css */
+
+.working-hours-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.working-hours-container h2 {
+  font-size: 2.5rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.countdown-timer {
+  font-size: 3rem;
+  color: #ff5733;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .working-hours-container {
+    padding: 20px 10px;
+  }
+
+  .working-hours-container h2 {
+    font-size: 2rem;
+  }
+
+  .countdown-timer {
+    font-size: 2.5rem;
+  }
+}

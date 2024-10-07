@@ -1,0 +1,38 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333; /* Background color */
+  height: 35px; /* Define height for alignment */
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  z-index: 1001;
+}
+
+.nav-spacer {
+  flex-grow: 1; /* Take up all available space to push nav-item to the right */
+}
+
+.nav-item {
+  color: #575757; /* Text color */
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: 1px solid transparent; /* Button border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+  margin: 0 5px; /* Space between buttons */
+}
+
+.nav-item:hover, .nav-item.active {
+  background-color: #333; /* Background color on hover/active */
+  border-color: #575757; /* Border color on hover/active */
+}
+
+.nav-item:focus {
+  outline: none; /* Remove default focus outline */
+}

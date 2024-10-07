@@ -1,0 +1,2 @@
+50GNc7zzUyAvJSd4
+mongodb+srv://abdulqadiruthman05:50GNc7zzUyAvJSd4@cluster0.vx03p.mongodb.net/

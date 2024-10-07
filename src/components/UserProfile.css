@@ -1,0 +1,19 @@
+/* src/components/UserProfile.css */
+.user-profile {
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user-profile h2 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .user-profile p {
+    margin: 10px 0 0;
+    color: #7f8c8d;
+  }
+   
